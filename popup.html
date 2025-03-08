@@ -6,7 +6,7 @@
       body {
         font-family: Arial, sans-serif;
         padding: 10px;
-        width: 300px;
+        width: 320px;
       }
       #output {
         white-space: pre-wrap;
@@ -15,14 +15,21 @@
         border: 1px solid #ccc;
         padding: 10px;
         background-color: #f9f9f9;
+        margin-top: 10px;
+      }
+      button {
+        width: 100%;
+        padding: 8px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        cursor: pointer;
+        margin-top: 10px;
       }
     </style>
   </head>
   <body>
-    <button id="sendData">
-      ローカルストレージを取得して表示する PostmanのEcho
-      APIを使ってそれを送信する ボタン
-    </button>
+    <button id="sendData">データを取得して送信</button>
     <div id="output"></div>
     <script src="popup.js"></script>
   </body>

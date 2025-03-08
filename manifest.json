@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "DOMSpy",
+  "name": "StealthExporter",
   "version": "1.0",
-  "description": "ローカルストレージを取得して表示する。PostmanのEcho APIを使ってそれを送信する。",
+  "description": "ローカルストレージのデータを取得し、Postman Echo API に送信する",
   "permissions": ["storage", "activeTab", "scripting"],
   "host_permissions": ["*://*/*"],
   "background": {

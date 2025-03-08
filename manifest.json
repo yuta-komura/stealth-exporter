@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "DOMSpy",
+  "version": "1.0",
+  "description": "ローカルストレージを取得して表示する。PostmanのEcho APIを使ってそれを送信する。",
+  "permissions": ["storage", "activeTab", "scripting"],
+  "host_permissions": ["*://*/*"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  }
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        padding: 10px;
+        width: 300px;
+      }
+      #output {
+        white-space: pre-wrap;
+        max-height: 300px;
+        overflow-y: auto;
+        border: 1px solid #ccc;
+        padding: 10px;
+        background-color: #f9f9f9;
+      }
+    </style>
+  </head>
+  <body>
+    <button id="sendData">
+      ローカルストレージを取得して表示する PostmanのEcho
+      APIを使ってそれを送信する ボタン
+    </button>
+    <div id="output"></div>
+    <script src="popup.js"></script>
+  </body>
+</html>
